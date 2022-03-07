@@ -10,8 +10,9 @@
 [Readme](https://github.com/Urvashi18/MerchantService/blob/master/merchant-service-frontend/README.md)
 
 ### Test All Together
-  Docker compose with mysql image \
+  1. Docker compose with mysql image \
     `docker-compose up`
+  2. GoTo localhost:3000 
     
 ### API
 [Readme](https://github.com/Urvashi18/MerchantService/blob/master/api.md)
