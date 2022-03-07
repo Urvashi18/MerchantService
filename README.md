@@ -5,12 +5,16 @@
 #### Build and Test 
  1. Build Service Image \
     `gradlew clean build docker` 
- 2. Docker compose with mysql image \
-    `docker compose up`
+    
+### `merchant-service-frontend`
+[Readme](https://github.com/Urvashi18/MerchantService/blob/master/merchant-service-frontend/README.md)
+
+### Test All Together
+  Docker compose with mysql image \
+    `docker-compose up`
     
 ### API
-
-see https://github.com/Urvashi18/MerchantService/blob/master/api.md
+[Readme](https://github.com/Urvashi18/MerchantService/blob/master/api.md)
 
 ## Potential Optimisations
 ### Performance
