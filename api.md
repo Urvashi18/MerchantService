@@ -170,7 +170,7 @@
     });
   ```
  ----
-  Returns json data about all merchants matching a name pattern and a particular country
+  Returns json data about all merchants matching a name/substring of a name and a particular country
 
 * **URL**
 
