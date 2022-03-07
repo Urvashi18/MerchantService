@@ -2,7 +2,7 @@
 ## The repository holds a merchant service as a crud application to search and query merchant details for user services.
 
 ### `merchant-service-backend`
-#### Build and Test 
+#### Build the backend before running (This creates a backend image)
  1. Build Service Image \
     `gradlew clean build docker` 
     
