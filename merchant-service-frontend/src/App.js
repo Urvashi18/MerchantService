@@ -10,12 +10,12 @@ function App() {
   const handleSearch = (e) => {
     setSearch(e.target.value);
     if(selectValue == 'All'){
-      fetch(`http://localhost:8080/merchants/?name=${search}`)
+      fetch(`http://localhost:8080/merchants/?name=${e.target.value}`)
       .then(response => response.json())
       .then(json => setData(json));
     }
     else {
-      fetch(`http://localhost:8080/merchants/?name=${search}&country=${selectValue}`)
+      fetch(`http://localhost:8080/merchants/?name=${e.target.value}&country=${selectValue}`)
       .then(response => response.json())
       .then(json => setData(json));
     }
