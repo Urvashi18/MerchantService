@@ -10,6 +10,8 @@
     
 ### API
 
+see https://github.com/Urvashi18/MerchantService/blob/master/api.md
+
 ## Potential Optimisations
 ### Performance
   - Enable in-memory caching and run a scheduler to sync with database
