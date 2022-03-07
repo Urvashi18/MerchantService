@@ -111,7 +111,7 @@
     });
   ```
   
-  **Get Merchants filtered by text (Search)**
+**Get Merchants filtered by text (Search)**
 ----
   Returns json data about all merchants of a particular name or substr of a name
 
