@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.guusto.service.merchant.mapper.MerchantMapperTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-03-07T06:15:28" hostname="LAPTOP-6M9HPGVJ" time="0.079">
+  <properties/>
+  <testcase name="mappingSucceeds()" classname="com.guusto.service.merchant.mapper.MerchantMapperTest" time="0.073"/>
+  <testcase name="nullResultSet()" classname="com.guusto.service.merchant.mapper.MerchantMapperTest" time="0.002"/>
+  <testcase name="mappingFails()" classname="com.guusto.service.merchant.mapper.MerchantMapperTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

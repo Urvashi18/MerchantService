@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.guusto.service.merchant.model.MerchantDetailsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-03-07T06:15:28" hostname="LAPTOP-6M9HPGVJ" time="0.009">
+  <properties/>
+  <testcase name="getPlatforms()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.002"/>
+  <testcase name="setPlatforms()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.0"/>
+  <testcase name="setCountry()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.0"/>
+  <testcase name="getName()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.001"/>
+  <testcase name="getId()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.0"/>
+  <testcase name="setId()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.001"/>
+  <testcase name="builder()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.001"/>
+  <testcase name="getWebsiteUrl()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.001"/>
+  <testcase name="setWebsiteUrl()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.0"/>
+  <testcase name="setName()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.001"/>
+  <testcase name="getCountry()" classname="com.guusto.service.merchant.model.MerchantDetailsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

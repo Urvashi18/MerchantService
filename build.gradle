@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group = 'com.guusto'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+subprojects {
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+repositories {
+    mavenCentral()
+}

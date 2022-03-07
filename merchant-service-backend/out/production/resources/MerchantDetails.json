@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Amazon",
+      "country": "USA",
+      "platform": "Online & In-store",
+      "websiteUrl": "https://www.amazon.com/"
+    },
+    {
+      "id": 2,
+      "name": "AMC Theatres",
+      "country": "USA",
+      "platform": "Online & In-store",
+      "websiteUrl": "https://www.amctheatres.com/"
+    },
+    {
+      "id": 3,
+      "name": "Amazon",
+      "country": "Canada",
+      "platform": "Online & In-store",
+      "websiteUrl": "https://www.amazon.ca/"
+    }
+  ]
+}
