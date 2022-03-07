@@ -1,0 +1,30 @@
+version: "3.7"
+services:
+  merchantservice:
+    image: merchant-service-backend:0.0.1-SNAPSHOT
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - mysql_db
+    command: sh -c './wait-for mysql_db:3306 -- npm start'
+  mysql_db:
+    build: ./merchant-service-backend/docker/db
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: guusto
+      MYSQL_ROOT_PASSWORD: admin123
+      MYSQL_PASSWORD: admin123
+  merchantservicefrontend:
+    build: ./merchant-service-frontend/
+    restart: always
+    links:
+      - merchantservice
+    ports:
+      - 3000:3000
+    depends_on:
+      - merchantservice
+networks:
+  merchant-mysql:

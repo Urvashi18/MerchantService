@@ -1,6 +1,0 @@
-com/guusto/service/merchant/mapper/MerchantMapperTest.java
- com.guusto.service.merchant.mapper.MerchantMapperTest
-com/guusto/service/merchant/db/impl/JDBCMerchantRepositoryTest.java
- com.guusto.service.merchant.db.impl.JDBCMerchantRepositoryTest
-com/guusto/service/merchant/model/MerchantDetailsTest.java
- com.guusto.service.merchant.model.MerchantDetailsTest
