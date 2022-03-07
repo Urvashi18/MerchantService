@@ -21,6 +21,7 @@
 ### Performance
   - Enable in-memory caching and run a scheduler to sync with database
   - (OR) Create a distributed cache (eg: Redis) if the service requirements for upscaling, use cache as primary source i.e. write/read through strategy
+  - (Dirty) Load and send all data at once for frontend processing of search and filter
 ### Code
   - Create generic filter structure to allow all different sorts of filters that can be integrated easily 
 ### Security
