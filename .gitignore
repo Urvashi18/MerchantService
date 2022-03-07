@@ -6,6 +6,8 @@
 # Compiled class file
 *.class
 
+
+
 # Log file
 *.log
 
@@ -65,6 +67,7 @@ logs
 
 node_modules
 bower_components
+out
 
 *.sublime*
 
