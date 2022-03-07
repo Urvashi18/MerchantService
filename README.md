@@ -1,5 +1,5 @@
 # MerchantService
-## The repository holds a merchant service as a crud application to search and query merchant details for user services such as giftcards, etc.
+## The repository holds a merchant service as a crud application to search and query merchant details for user services.
 
 ### `merchant-service-backend`
 #### Build and Test 
@@ -8,6 +8,8 @@
  2. Docker compose with mysql image \
     `docker compose up`
     
+### API
+
 ## Potential Optimisations
 ### Performance
   - Enable in-memory caching and run a scheduler to sync with database
@@ -16,5 +18,6 @@
   - Create generic filter structure to allow all different sorts of filters that can be integrated easily 
 ### Security
   - Use public key encryption in docker compose and docker file and do not expose plaintext
+  - API authentication
 
 
