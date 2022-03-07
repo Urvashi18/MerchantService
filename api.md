@@ -113,11 +113,11 @@
   
   **Get Merchants filtered by text (Search)**
 ----
-  Returns json data about all merchants from a particular country
+  Returns json data about all merchants of a particular name or substr of a name
 
 * **URL**
 
-  /merchants/?name=AM
+  /merchants/?name=am
 
 * **Method:**
 
@@ -169,4 +169,46 @@
       }
     });
   ```
- 
+ ----
+  Returns json data about all merchants matching a name pattern and a particular country
+
+* **URL**
+
+  /merchants/?name=amc&country=USA
+
+* **Method:**
+
+  `GET`
+  
+*  **URL Params**
+  None
+
+* **Data Params**
+
+  `name=[string]`
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `[
+    {
+        "id": 2,
+        "name": "Amc Theatres",
+        "country": "USA",
+        "websiteUrl": "https://www.amctheatres.com/",
+        "platforms": "Online & In-store"
+    }
+]`
+
+* **Sample Call:**
+
+  ```javascript
+    $.ajax({
+      url: "/merchants/?name=amc&country=USA",
+      dataType: "json",
+      type : "GET",
+      success : function(r) {
+        console.log(r);
+      }
+    });
+  ```
