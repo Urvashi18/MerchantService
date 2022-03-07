@@ -2,15 +2,20 @@
 ## The repository holds a merchant service as a crud application to search and query merchant details for user services.
 
 ### `merchant-service-backend`
-#### Build and Test 
+#### Build the backend before running (This creates a backend image)
  1. Build Service Image \
     `gradlew clean build docker` 
- 2. Docker compose with mysql image \
-    `docker compose up`
+    
+### `merchant-service-frontend`
+[Readme](https://github.com/Urvashi18/MerchantService/blob/master/merchant-service-frontend/README.md)
+
+### Test All Together
+  1. Docker compose with mysql image \
+    `docker-compose up`
+  2. GoTo localhost:3000 
     
 ### API
-
-see https://github.com/Urvashi18/MerchantService/blob/master/api.md
+[Readme](https://github.com/Urvashi18/MerchantService/blob/master/api.md)
 
 ## Potential Optimisations
 ### Performance
