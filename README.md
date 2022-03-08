@@ -3,13 +3,13 @@
 
 ### `merchant-service-backend`
 #### Build the backend before running (This creates a backend image)
- 1. Build Service Image \
+ 1. Build Service Image (from root of the project) \
     `gradle clean build docker` 
     
 ### `merchant-service-frontend`
 [Readme](https://github.com/Urvashi18/MerchantService/blob/master/merchant-service-frontend/README.md)
 
-### Test All Together
+### Test All Together (from root of the project)
   1. Docker compose on Arm based Mac/Windows/Linux
      - `docker-compose up`
   2. Docker compose for M1 Mac 
