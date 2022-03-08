@@ -1,5 +1,6 @@
 package com.guusto.service.merchant.rest;
 
+import com.guusto.service.merchant.db.Repository;
 import com.guusto.service.merchant.db.impl.JDBCMerchantRepository;
 import com.guusto.service.merchant.model.MerchantDetails;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,10 +14,10 @@ import java.util.Optional;
 @RequestMapping("merchants/")
 public class SearchController {
 
-    private final JDBCMerchantRepository repository;
+    private final Repository repository;
 
     @Autowired
-    public SearchController(JDBCMerchantRepository repository) {
+    public SearchController(Repository repository) {
         this.repository = repository;
     }
 
