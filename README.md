@@ -11,8 +11,11 @@
 
 ### Test All Together
   1. Docker compose with mysql image \
-    `docker-compose up`
-  2. GoTo localhost:3000 
+     - `docker-compose up`
+  2. Docker compose for M1 Mac \ 
+     - `echo "DOCKER_DEFAULT_PLATFORM=linux/amd64" > mac.env`
+     - `docker-compose --env-file mac.env up`
+  4. GoTo localhost:3000 
     
 ### API
 [Readme](https://github.com/Urvashi18/MerchantService/blob/master/api.md)
