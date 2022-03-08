@@ -4,7 +4,7 @@
 ### `merchant-service-backend`
 #### Build the backend before running (This creates a backend image)
  1. Build Service Image \
-    `gradlew clean build docker` 
+    `gradle clean build docker` 
     
 ### `merchant-service-frontend`
 [Readme](https://github.com/Urvashi18/MerchantService/blob/master/merchant-service-frontend/README.md)
