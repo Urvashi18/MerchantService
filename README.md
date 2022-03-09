@@ -10,9 +10,9 @@
 [Readme](https://github.com/Urvashi18/MerchantService/blob/master/merchant-service-frontend/README.md)
 
 ### Test All Together (from root of the project)
-  1. Docker compose on Arm based Mac/Windows/Linux
+  1. Docker compose on x86 based Mac/Windows/Linux
      - `docker-compose up`
-  2. Docker compose for M1 Mac 
+  2. Docker compose for ARM based M1 Mac 
      - `echo "DOCKER_DEFAULT_PLATFORM=linux/amd64" > mac.env`
      - `docker-compose --env-file mac.env up`
   4. GoTo localhost:3000 
